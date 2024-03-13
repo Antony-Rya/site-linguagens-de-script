@@ -1,7 +1,4 @@
 function imprimirMsg(texto){
-    alert('Você clicou no botão ' + texto);
-    
-
 }
 
 function login(){
@@ -11,10 +8,7 @@ function login(){
     var email = document.getElementById("email").value;
     var senha = document.getElementById("pwd").value;
 
-    if(email == emailCorreto && senha == senhaCorreta){ 
-          window.location.href = "./index.html";
-
-    }else{
-          alert("Email ou senha incorreto.")
+    if(senhaCorreta == senhaCorreta){ 
+          window.location.href = "../index.html";
     }
 }
